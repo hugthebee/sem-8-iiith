@@ -1,0 +1,28 @@
+c_250ms = mirchromagram('Abrupt-trim.wav', 'Frame', 0.4)
+sim_chroma_250ms = mirsimatrix(c_250ms)
+c_3s = mirchromagram('Abrupt-trim.wav', 'Frame', 3)
+sim_chroma_3s = mirsimatrix(c_3s)
+c_10s = mirchromagram('Abrupt-trim.wav', 'Frame', 10)
+sim_chroma_10s = mirsimatrix(c_10s)
+
+c_250ms = mirchromagram('Original-trim.wav', 'Frame', 0.4)
+sim_chroma_250ms = mirsimatrix(c_250ms)
+c_3s = mirchromagram('Original-trim.wav', 'Frame', 3)
+sim_chroma_3s = mirsimatrix(c_3s)
+c_10s = mirchromagram('Original-trim.wav', 'Frame', 10)
+sim_chroma_10s = mirsimatrix(c_10s)
+
+s_250ms = mirspectrum('Abrupt-trim.wav', 'Frame', 0.25)
+sim_spec_250ms = mirsimatrix(s_250ms)
+s_3s = mirspectrum('Abrupt-trim.wav', 'Frame', 3)
+sim_spec_3s = mirsimatrix(s_3s)
+s_10s = mirspectrum('Abrupt-trim.wav', 'Frame', 10)
+sim_spec_10s = mirsimatrix(s_10s)
+
+s_250ms = mirspectrum('Original-trim.wav', 'Frame', 0.25)
+sim_spec_250ms = mirsimatrix(s_250ms)
+s_3s = mirspectrum('Original-trim.wav', 'Frame', 3)
+sim_spec_3s = mirsimatrix(s_3s)
+s_10s = mirspectrum('Original-trim.wav', 'Frame', 10)
+sim_spec_10s = mirsimatrix(s_10s)
+
